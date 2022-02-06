@@ -21,3 +21,8 @@ How to Train:
   
   
   To use the notebook, you will need to create your own training data. This can be done at https://www.makesense.ai/ where you will annoate your images, then save the annotations    as a .json file. The images and .json can be uploaded to the notebook to start training on your own dataset.
+
+  Another way to train would be by following this repo: https://github.com/soumyaiitkgp/Custom_MaskRCNN.git. Here, you clone the repo, then go to samples/custom. In the custom folder, there is a seperate readme that explains how to train and test a new model, along with all the files to do so.
+  
+How to Convert .h5 to .pb:
+  Some of the code may need to be adjusted in the k2tf_convert.py but this repo will show you how to convert a model.h5 to model.pb so that it can be ran using the realsense camera: https://github.com/bitbionic/keras-to-tensorflow.git
