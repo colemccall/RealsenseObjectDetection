@@ -3,6 +3,7 @@ This project is an object detection module built using the Intel Realsense d435 
 
 
 Dependencies:
+  
   pip3 install opencv-python
   
   pip3 install pyrealsense2
